@@ -11,8 +11,10 @@ public class MergeSort {
             return;
         }
         int mid=(begin+end)>>1;
+        //先分治
         sort(nums,begin,mid);
         sort(nums,mid,end);
+        //再归并
         merge(nums,begin,mid,end);
     }
     public void merge(int[] nums,int begin,int mid,int end){
