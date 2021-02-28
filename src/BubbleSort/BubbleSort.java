@@ -1,6 +1,5 @@
 package BubbleSort;
 
-import HeapSort.HeapSort;
 
 import java.util.Arrays;
 import java.util.Random;
