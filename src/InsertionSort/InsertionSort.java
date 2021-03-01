@@ -5,7 +5,10 @@ import HeapSort.HeapSort;
 import java.util.Arrays;
 import java.util.Random;
 
-
+/**
+ * 插入排序
+ * 稳定
+ */
 public class InsertionSort {
     public void sort(int[] arr,int begin,int end){
         for(int i=begin;i<end;++i){

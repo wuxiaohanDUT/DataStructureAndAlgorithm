@@ -5,6 +5,10 @@ import QuickSort.QuickSort;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * 归并排序
+ * 稳定
+ */
 public class MergeSort {
     public void sort(int[] nums,int begin,int end){
         if(begin>=end-1){

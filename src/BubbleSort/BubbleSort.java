@@ -4,6 +4,10 @@ package BubbleSort;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * 冒泡排序
+ * 稳定
+ */
 public class BubbleSort {
 
     public void sort(int[] nums,int begin,int end){

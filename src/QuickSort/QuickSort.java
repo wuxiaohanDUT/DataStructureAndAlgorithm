@@ -3,6 +3,10 @@ package QuickSort;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * 快速排序
+ * 不稳定
+ */
 public class QuickSort {
     public void sort(int[] nums,int begin,int end){
         if(begin>=end){
