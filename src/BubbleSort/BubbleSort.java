@@ -6,7 +6,7 @@ import java.util.Random;
 
 /**
  * 冒泡排序
- * 稳定
+ * 稳定。
  */
 public class BubbleSort {
 
